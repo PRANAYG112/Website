@@ -12,7 +12,7 @@ html, body, div, h1 {
     padding-top: 20vh;
     /* formatting */
     height: 100vh;
-    background-image: url(../../000/paradise-island.jpg);
+    background-image: url("https://www.seabourn.com/content/dam/sbn/inventory-assets/ports/ARU/aru-aitutaki-cook-islands.jpg.image.1440.523.high.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
