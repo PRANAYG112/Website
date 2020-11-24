@@ -1,151 +1,93 @@
+html, body, div, footer, span, button {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 html {
-    font-family: 'Cantarell', sans-serif;
-    color: whitesmoke;
+    font-size: 1vw;
+    color: #86969C;
 }
 
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 2.8rem;
-    display: flex;
-    /*flex-direction: row;*/
-    /*flex-wrap: nowrap;*/
-    /*flex-flow: row nowrap;*/
-    justify-content: space-between;
-    align-items: center;
-    /* formatting */
-    background-color: rgba(0,0,0,.6);
-}
+/*#atf {*/
+/*    height: 100vh;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
 
-header div {
-    width: 300px;
-    height: 80%;
-    margin: 0 1rem;
-    display: flex;
-    align-items: center;
-    /* FOR DEBUGGING */
-    /*border: 2px solid hotpink;*/
-}
+/*h1 {*/
+/*    font-size: 7rem;*/
+/*    text-align: center;*/
+/*}*/
 
-header nav {
-    width: 300px;
-    height: 80%;
-    margin: 0 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+/*footer {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*}*/
 
-.hd_svg {
-    width: 30px;
-    fill: white;
-    /* FOR DEBUGGING ONLY */
-    /*border: 3px solid hotpink;*/
-}
+/*#top-border {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    !* format *!*/
+/*    width: 95%;*/
+/*    height: 12rem;*/
+/*    border-top: 2px solid #86969C;*/
+/*}*/
 
-.hd_vg:hover {
-    /*fill: #FF0000;*/
-    fill: #141414;
-}
+/*#ftr-spnr, #ftr-btns {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    !* format *!*/
+/*    margin: 0 6rem;*/
+/*    font-size: 4rem;*/
+/*}*/
 
-header a {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    /*border: 2px solid hotpink;*/
-}
+/*span {*/
+/*    margin-left: 1rem;*/
+/*}*/
 
+/*button {*/
+/*    font-size: inherit;*/
+/*    border-radius: 4px;*/
+/*    padding: 1rem 3rem;*/
+/*    cursor: pointer;*/
+/*}*/
 
-header a:hover {
-    color: #9dbb88;
-    /*border: 2px solid lawngreen;*/
-}
+/*#reset {*/
+/*    color: #4EBBE4;*/
+/*    background-color: white;*/
+/*}*/
 
-header div a h1 {
-    font-size: 1rem;
-    margin-left: .5rem;
-}
+/*#save {*/
+/*    color: white;*/
+/*    background-color: #4EBBE4;*/
+/*    border: 1px solid #16A2D7;*/
+/*    margin-left: 1rem;*/
+/*}*/
 
-header nav {
-    justify-content: space-between;
-}
+/*.icon {*/
+/*    width: 1em;*/
+/*    height: 1em;*/
+/*    fill: currentColor;*/
+/*}*/
 
-header nav a {
-    padding: 0 1rem;
-}
+/*.icon-spinner {*/
+/*    !* animation *!*/
+/*    animation-name: spinner;*/
+/*    animation-duration: 2s;*/
+/*    animation-timing-function: linear;*/
+/*    !*animation-delay: 0s;*!*/
+/*    animation-iteration-count: infinite;*/
+/*    !*animation-direction: normal;*!*/
+/*    !*animation-fill-mode: none;*!*/
+/*    !*animation-play-state: running;*!*/
+/*}*/
 
-header nav a:hover {
-    border-radius: 5px;
-    background-color: dimgray;
-}
-
-.hd_vg {
-    width: 30px;
-    height: 100%;
-    fill: currentColor;
-    /*border: 1px solid darkturquoise;*/
-}
-
-#one {
-    /* layout */
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background */
-    background-color: #5b5b5b;
-    background-image: url("https://github.com/PRANAYG112/Website/blob/master/background-photo.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    /*background-origin: border-box;*/
-    background-attachment: fixed;
-    /* formatting */
-}
-
-#one > div {
-    height: 90vh;
-}
-
-.two {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.three {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-h1 {
-    font-size: 2rem;
-    text-align: center;
-}
-
-h2 {
-    font-size: 1.4rem;
-    font-weight: 700;
-    text-align: center;
-}
-
-h3 {
-    font-size: 1.4rem;
-    text-align: center;
-    margin-top: .8rem;
-    line-height: 1.2;
-}
-
-button {
-    color: rgb(202, 250, 234);
-    font-size: 1.4rem;
-    font-weight: 700;
-    border: 1px solid rgb(202, 250, 234);
-    padding: .7rem 1.2rem;
-    border-radius: 3px;
-}
+/*@keyframes spinner {*/
+/*    0% { transform:rotate(0deg); }*/
+/*    100%   { transform:rotate(360deg);}*/
+/*}*/
