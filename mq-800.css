@@ -1,0 +1,16 @@
+#one {
+    background-image: url("../000/background-photo.jpg");
+}
+
+#one > div {
+    height: 18vh;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h3 {
+    margin-top: .4rem;
+}
+
