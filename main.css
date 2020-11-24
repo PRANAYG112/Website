@@ -1,35 +1,31 @@
-html, body, div, h1 {
+html, body, h1, h2, h3, p, img {
     padding: 0;
     border: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
-#atf {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding-top: 20vh;
-    /* formatting */
-    height: 100vh;
-    background-image: url("https://www.seabourn.com/content/dam/sbn/inventory-assets/ports/ARU/aru-aitutaki-cook-islands.jpg.image.1440.523.high.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    background-attachment: fixed;
+body {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 40px;
+    border: 25px inset deepskyblue;
+    font-size: 1.5rem;
 }
 
 h1 {
-    background-color: #b4d2f7;
-    text-shadow: 3px 3px  6px #FF0000;
-    font-size: 10rem;
-    text-align: center;
-    color: black;
-    /* offset-x | offset-y | blur-radius | color */
-    /*text-shadow: 2px 2px 1px #4c2b03;*/
+    margin-top: 4rem;
+    font-size: 2rem;
+    text-transform: uppercase;
 }
 
-ul {
-    background-color: lightskyblue;
+img {
+    max-height: 80vh;
+    max-width: 80vw;
+    display: block;
+    margin: 20px auto;
+    border: 4px solid deepskyblue;
 }
 
+strong {
+    color: blue;
+}
